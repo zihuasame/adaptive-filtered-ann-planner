@@ -1,0 +1,494 @@
+{
+  "project_license": "Apache-2.0",
+  "resolved_artifacts": [
+    {
+      "artifact": "com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar",
+      "jar_sha256": "510bdda75a7a6186c5bf33b851239488a1450906ae5757121f2e1cc48a7e108f",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.pom",
+          "sha256": "e58f48ac14e4dbd48595d69e20bad35019ec1281514ef7ef155e18072ada617f"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "entry": "META-INF/NOTICE",
+          "sha256": "612b14bc77c944ce229cbba0d14919162cfea8ed802cbf06a8e865e032d03201"
+        }
+      ]
+    },
+    {
+      "artifact": "com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar",
+      "jar_sha256": "8aa5740d80b5a5025508b41bbadbaa1fb3772267c628b2e30681a4f45f8b8931",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.pom",
+          "sha256": "b9c98ba9e29ea61b693d4c8c801968feaae220b2b2002364a7bcec524998384b"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "entry": "META-INF/NOTICE",
+          "sha256": "612b14bc77c944ce229cbba0d14919162cfea8ed802cbf06a8e865e032d03201"
+        }
+      ]
+    },
+    {
+      "artifact": "com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar",
+      "jar_sha256": "056bc4d3e5e53ce821450fa97b3f9e0f8dde125cf6da6884353bb1f09582e1d9",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.pom",
+          "sha256": "37dc6b8f6391a4709ac215ca98fa2341c6dd65613c2277d96a4fd82a2f50e3c9"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/FastDoubleParser-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "entry": "META-INF/NOTICE",
+          "sha256": "0a0042db627fe915c6a1d9ef74927af5081446063e8888494be6718d692dd2b8"
+        },
+        {
+          "entry": "META-INF/FastDoubleParser-NOTICE",
+          "sha256": "aa057961a9ac52f1a63a8ae5ae437aa8355a69a0876aa8b5d1ecd6e35944be3c"
+        },
+        {
+          "entry": "META-INF/thirdparty-LICENSE",
+          "sha256": "6e0e5b6e6389568c1669163fdf40cee2143be58960be0a4e2f1428805505170d"
+        }
+      ]
+    },
+    {
+      "artifact": "com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.3/jackson-dataformat-yaml-2.18.3.jar",
+      "jar_sha256": "3ca00e47cfcb43e79438ddcfc8fc735e9ebac3824fb7769138609be6bd56e483",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.3/jackson-dataformat-yaml-2.18.3.pom",
+          "sha256": "6b4e7a9d2b5742aea138c15c0c9de04632f1a2d8de6e761edef8b36092b4864a"
+        },
+        {
+          "pom": "com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.18.3/jackson-dataformats-text-2.18.3.pom",
+          "sha256": "5673daacc6e855976decedeb46dc63395a6b1ac9a483e672f0831cf46fe06e25"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "9e255394eb9f8cfdcdf599dd150d9ca3e922ab4d31cb5e83519479a91e1d3072"
+        },
+        {
+          "entry": "META-INF/NOTICE",
+          "sha256": "5828ffe74ea0ee4bf896654026f05fed1ead1d22acd577cc1eec9be0bc0de1ed"
+        }
+      ]
+    },
+    {
+      "artifact": "org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+      "jar_sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832",
+      "licenses": [
+        {
+          "name": "MIT",
+          "url": "https://www.slf4j.org/license.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.pom",
+          "sha256": "150c40287f7cecdc21b9380caac98e928c4f33c023db6b348df1c5ac977026bf"
+        },
+        {
+          "pom": "org/slf4j/slf4j-parent/2.0.17/slf4j-parent-2.0.17.pom",
+          "sha256": "95cd71e852dfdb29126e58b7b939d57ec2b2e6024391852e0b545dee082bbf3b"
+        },
+        {
+          "pom": "org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom",
+          "sha256": "f78d27b642b4b886eb839fc102b5cd9fe7f30f37599ffe68185be4e1609031e9"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE.txt",
+          "sha256": "4e7f90c86ab51278228bce153122f1d8df30149d13ce9ef524c8444a84c32dcc"
+        }
+      ]
+    },
+    {
+      "artifact": "ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar",
+      "jar_sha256": "3e1533d0321f8815eef46750aee0111b41554f9a4644c3c4d2d404744b09f60f",
+      "licenses": [
+        {
+          "name": "Eclipse Public License - v 1.0",
+          "url": "http://www.eclipse.org/legal/epl-v10.html"
+        },
+        {
+          "name": "GNU Lesser General Public License",
+          "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom",
+          "sha256": "d557cd2ab23de4a47ece870642162a9f94739fcd0b1c313e27832514ee203833"
+        },
+        {
+          "pom": "ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom",
+          "sha256": "53c3e21b123bbd38a301b40d0d814094ead47a1023d21d613cc748d70e7b9c69"
+        }
+      ],
+      "embedded_notices": []
+    },
+    {
+      "artifact": "ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar",
+      "jar_sha256": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027",
+      "licenses": [
+        {
+          "name": "Eclipse Public License - v 1.0",
+          "url": "http://www.eclipse.org/legal/epl-v10.html"
+        },
+        {
+          "name": "GNU Lesser General Public License",
+          "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom",
+          "sha256": "c77247297d5d9bb9e04e92d4c82e75c6e8eabe245436892f9114335b8b790c83"
+        },
+        {
+          "pom": "ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom",
+          "sha256": "53c3e21b123bbd38a301b40d0d814094ead47a1023d21d613cc748d70e7b9c69"
+        }
+      ],
+      "embedded_notices": []
+    },
+    {
+      "artifact": "io/github/jbellis/jvector/4.0.2/jvector-4.0.2.jar",
+      "jar_sha256": "593d181d2492dec9db05a5ea14a573d72a8abc463f372a3d8e379744a60a2c15",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "io/github/jbellis/jvector/4.0.2/jvector-4.0.2.pom",
+          "sha256": "65c561d206e9bb5b58dbf9c6b3a7bdc23c8687abb091fca90e1fb2c64169d533"
+        }
+      ],
+      "embedded_notices": []
+    },
+    {
+      "artifact": "org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar",
+      "jar_sha256": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308",
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom",
+          "sha256": "fad72336ea7d7dd06da103144e3740db508fa4b17d9c54d7847737edc24a7e60"
+        },
+        {
+          "pom": "org/apache/commons/commons-parent/39/commons-parent-39.pom",
+          "sha256": "87cd27e1a02a5c3eb6d85059ce98696bb1b44c2b8b650f0567c86df60fa61da7"
+        },
+        {
+          "pom": "org/apache/apache/16/apache-16.pom",
+          "sha256": "9f85ff2fd7d6cb3097aa47fb419ee7f0ebe869109f98aba9f4eca3f49e74a40e"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE.txt",
+          "sha256": "64f23963615950bad9ddd31569a7f09afbbe11b81d94873ffd9b1cac6081a11d"
+        },
+        {
+          "entry": "META-INF/NOTICE.txt",
+          "sha256": "5495442a32bfc2b93b4a8f2c34c5c218d16cca434aa5684fb953d9419120e3fa"
+        }
+      ]
+    },
+    {
+      "artifact": "org/agrona/agrona/1.20.0/agrona-1.20.0.jar",
+      "jar_sha256": "66277ecb27990f2f3523e090b8c16c8393177ddef7fb985fc27e72d2a5e93a8f",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/agrona/agrona/1.20.0/agrona-1.20.0.pom",
+          "sha256": "4b026d90b4d176a89edb4991367c6f6d2bfd68110e27b402d9e711c1692a83b6"
+        }
+      ],
+      "embedded_notices": []
+    },
+    {
+      "artifact": "org/yaml/snakeyaml/2.4/snakeyaml-2.4.jar",
+      "jar_sha256": "ef779af5d29a9dde8cc70ce0341f5c6f7735e23edff9685ceaa9d35359b7bb7f",
+      "licenses": [
+        {
+          "name": "Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/yaml/snakeyaml/2.4/snakeyaml-2.4.pom",
+          "sha256": "e154a3231cd6cde68aabf274fd18964d49a9c1a5f5e9ed3bf471e9ae7bdf08e6"
+        }
+      ],
+      "embedded_notices": []
+    },
+    {
+      "artifact": "org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar",
+      "jar_sha256": "aa880e4afba87d447357e4c1fc098c5cb1d200cb9403496c00d3b35a5bd0e8db",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.pom",
+          "sha256": "a862df11ee539982efcb141d9c0ade7037bba0265d0b589d5fb84db0d212f1d9"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    },
+    {
+      "artifact": "org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar",
+      "jar_sha256": "ab83ef9e51ac4597d59d26b4b58812129550e2f579a404c8af7d09f5ce5b4293",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.pom",
+          "sha256": "512d23ff39c76665a1a3645526230bcf889bd49884304f7febe047b018eeb339"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    },
+    {
+      "artifact": "org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+      "jar_sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom",
+          "sha256": "9bf7cffc410f3e8372c2522578df9ca56d9d43bd937e30948706c232a943b355"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        }
+      ]
+    },
+    {
+      "artifact": "org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar",
+      "jar_sha256": "9edd969b0d0670c54105bc91ae79bd1c6f503e12115faba82073b84c86bbc334",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.pom",
+          "sha256": "cd12d2b7c242f165548ed9c9406160dcedb6080925b47cf731e0fdae5fb4bce2"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    },
+    {
+      "artifact": "org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "jar_sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom",
+          "sha256": "32355081d109095c3d5d374d5a43b4f4c1b75d549e983ef50723e2772e5302a0"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+        }
+      ]
+    },
+    {
+      "artifact": "org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar",
+      "jar_sha256": "02a6e015de7ce94ac7f256e7fa05b8091dea861fe79a555a7993313d0f6c7d96",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.pom",
+          "sha256": "8c359bbea07c64a6acdd8c1e13b4f77058b2432b35e86e9a95ddc63249a0ad54"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE-univocity-parsers.md",
+          "sha256": "d25d17d20162cce14cdbb467a0f6d75a35ba488a4144637b17392eaa8042c122"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    },
+    {
+      "artifact": "org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar",
+      "jar_sha256": "cdf8ac59f3fad774ca738ad03890950eeb91833ef0e8908753177edd26f1581c",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.pom",
+          "sha256": "b0a323b0d03444441d13d4630b40db5ef84160d2c2f585d4d646dc3882f99207"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    },
+    {
+      "artifact": "org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar",
+      "jar_sha256": "b1dd998f64f9acadc15966d9cd3d08074662677b3e390f0a38fcbf0bb4c72330",
+      "licenses": [
+        {
+          "name": "Eclipse Public License v2.0",
+          "url": "https://www.eclipse.org/legal/epl-v20.html"
+        }
+      ],
+      "pom_evidence": [
+        {
+          "pom": "org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.pom",
+          "sha256": "943471579984212fbe69d03edec7c2ff4fbab1888be0b80c265ea70869fd8abd"
+        }
+      ],
+      "embedded_notices": [
+        {
+          "entry": "META-INF/LICENSE-notice.md",
+          "sha256": "c7d843e0faf8a251278c9220f6b5326a42a01f08b855c1ec871bcef6211a7e2a"
+        },
+        {
+          "entry": "META-INF/LICENSE.md",
+          "sha256": "5aa4cd44c111add178d1c2e2fe36d58a484012c80167df925f826cd64d411bf0"
+        }
+      ]
+    }
+  ]
+}

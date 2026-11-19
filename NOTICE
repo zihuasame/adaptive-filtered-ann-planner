@@ -1,0 +1,8 @@
+Adaptive Filtered ANN Planner
+Copyright 2026 Adaptive Filtered ANN Planner contributors
+
+Includes first-party components from filtered-ann-benchmark.
+Maven Wrapper retains its Apache Software Foundation license headers.
+Third-party dependencies retain their original licenses and notices;
+see adaptive-planner/THIRD_PARTY_NOTICES.md and
+adaptive-planner/docs/dependency-licenses.json.

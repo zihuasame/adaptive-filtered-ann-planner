@@ -1,0 +1,7 @@
+{
+  "queryVector": [0, 1, 2, 3, 4, 5, 6, 7],
+  "filter": {"conditions": [{"field": "REGION", "operator": "EQ", "value": 1}]},
+  "targetRecall": 0.95,
+  "maxCandidateK": 40,
+  "bypassBitmapCache": false
+}

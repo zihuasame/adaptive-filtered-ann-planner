@@ -1,0 +1,33 @@
+{
+  "source_catalog_sha256": "d89f03cac9077a55b1dab75a1cff6d3a55165dd5ce8817cb06aec374429bbdf7",
+  "source_build_id": "engineering-20261119T002913-single-graph",
+  "nodes": 250000,
+  "figure_scenario": "TUNING",
+  "uncertainty": "min/max of three historical rounds; no new measurements",
+  "files": [
+    {
+      "path": "historical-selection.csv",
+      "sha256": "97ad56277847a0bb5cb665bf288326a394238fa4da18148f8b0ca753c5943b00"
+    },
+    {
+      "path": "holdout-reference.csv",
+      "sha256": "cb39a776d0f43c24e1f798c8cf4df2ec6c521921d0573578295ee6408ed255bf"
+    },
+    {
+      "path": "p99-comparison.png",
+      "sha256": "4a02b07f095dcde64eac325504d83ece467ccbc1578dd5759214c21666f4690f"
+    },
+    {
+      "path": "recall-comparison.png",
+      "sha256": "e746cec70b384ca798f44c5bb24c2f8e3ef84fe88fcf7f1f8663e4b4cf912f23"
+    },
+    {
+      "path": "recall-p99-tradeoff.png",
+      "sha256": "bd1263368eab37a131b75ae4a8ceba5702ff1d37116d4e69ffdb7d3748cc2a46"
+    },
+    {
+      "path": "strategy-selection.png",
+      "sha256": "e0c0acbe1e5d5f0a26033791daf73bbf0f510ba12bc7cab9a8370544bea37f8d"
+    }
+  ]
+}

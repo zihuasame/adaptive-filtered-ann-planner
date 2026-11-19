@@ -1,0 +1,24 @@
+[
+  {
+    "original": "scripts\\w3-r-efg\\java\\IntegratedStrategies.java",
+    "originalSha256": "1228e9b77297cbe6e2509af30ec7f3f702be8b20efc944afcbee35cafd1ba59c",
+    "adapter": "adaptive-planner\\planner-app\\src\\main\\java\\com\\filteredann\\planner\\engine\\FourStrategyEngine.java",
+    "substitutionsOnly": false,
+    "productChangesV03": [
+      "Default exact path uses MatchedIdExactIndex; original ProductExactIndex preserved",
+      "Optional exact-kernel injection for same-graph comparison; ANN search algorithm and budgets unchanged"
+    ]
+  },
+  {
+    "original": "scripts\\w3-r-efg\\java\\RowExactIndex.java",
+    "originalSha256": "842276d3bd084044bc09c5d9de3a5fc9c5731da0ffbb9eb8fcd36f07ff5e2950",
+    "adapter": "adaptive-planner\\planner-app\\src\\main\\java\\com\\filteredann\\planner\\engine\\ProductExactIndex.java",
+    "substitutionsOnly": true
+  },
+  {
+    "original": "scripts\\w3-r-efg\\java\\IntegratedFactory.java",
+    "originalSha256": "4b3699f4688cd7e509bc67451ef4b3ab7641414bc58909a1517a260d1124fbc8",
+    "adapter": "adaptive-planner\\planner-app\\src\\main\\java\\com\\filteredann\\planner\\engine\\ProductGraphFactory.java",
+    "substitutionsOnly": true
+  }
+]

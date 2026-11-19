@@ -1,0 +1,16 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+11月 19, 2026 4:17:21 下午 io.github.jbellis.jvector.vector.PanamaVectorizationProvider <init>
+信息: Preferred f32 species is 512
+11月 19, 2026 4:17:22 下午 io.github.jbellis.jvector.util.PhysicalCoreExecutor resolvePhysicalCoreCount
+信息: PhysicalCoreExecutor: using 16 worker threads, determined by fallback heuristic availableProcessors()/2 (availableProcessors=32; OS topology probe unavailable).
+PRODUCT_READY nodes=1024 dimensions=8 graphBuildMs=665.659 buildId=product-demo-3211a10e-aca0-4f7d-ae62-246d10225d52 provider=PanamaVectorizationProvider historicalTransfer=false
+
+=== json-request ===
+INPUT filter=REGION:EQ:1 targetRecall=0.9500 maxCandidateK=40 dimension=8
+PLAN strategy=E budget=0 cache=COLD matches=142 selectivity=0.138672 safeFallback=true
+WHY Unknown filter signature, dataset identity, bitmap contents or selectivity; exact fallback
+HISTORICAL_EVIDENCE minRecall=null meanMs=null p99Ms=null sourceBuild=engineering-20261119T002913-single-graph; CURRENT_BUILD_PREDICTION=UNKNOWN
+RESULT executed=E budget=0 ids=[334, 146, 616, 915, 263, 410, 785, 612, 984, 555] actualRecall=null tieAware=null targetMet=null executionFallback=false latencyMs=15.291
+NOTE Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA
+NOTE Actual Recall UNKNOWN: no query/filter/dataset-bound GT supplied; exact E is still exact enumeration
+RESPONSE_JSON {"decision":{"strategy":"E","budget":0,"filterId":null,"signature":"REGION:EQ:1","matches":142,"selectivity":0.138671875,"conditionCount":1,"cacheState":"COLD","targetRecall":0.95,"safeFallback":true,"supportedByHistoricalEvidence":false,"exactEnumeration":true,"historicalMinRecall":null,"historicalMeanMs":null,"historicalP99Ms":null,"currentBuildPredictedMs":null,"sourceBuildId":"engineering-20261119T002913-single-graph","currentBuildId":"product-demo-3211a10e-aca0-4f7d-ae62-246d10225d52","evidenceScope":"EXACT_ENUMERATION_WITHOUT_CALIBRATED_COST","reason":"Unknown filter signature, dataset identity, bitmap contents or selectivity; exact fallback","alternatives":[],"warnings":["Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA"]},"selectedStrategy":"E","selectedBudget":0,"resultVectorIds":[334,146,616,915,263,410,785,612,984,555],"actualRecall":null,"actualTieAwareRecall":null,"actualTargetMet":null,"executionFallback":false,"queryLatencyNanos":15290700,"bitmapNanos":7709100,"planningNanos":1704200,"searchNanos":4020000,"verificationNanos":0,"attempts":[{"strategy":"E","budget":0,"returnedCount":10,"visitedCount":0,"expandedCount":0,"searchNanos":4020000,"actualRecall":null}],"warnings":["Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA","Actual Recall UNKNOWN: no query/filter/dataset-bound GT supplied; exact E is still exact enumeration"]}

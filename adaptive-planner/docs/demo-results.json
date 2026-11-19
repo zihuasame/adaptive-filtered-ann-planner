@@ -1,0 +1,1125 @@
+[
+  {
+    "record": "demo-session.txt",
+    "scenario": "high-selectivity-R",
+    "response": {
+      "decision": {
+        "strategy": "N",
+        "budget": 10,
+        "filterId": "R-rank-100000",
+        "signature": "RANDOM_RANK:LT:100000",
+        "matches": 24805,
+        "selectivity": 0.09922,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.95,
+        "safeFallback": false,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": false,
+        "historicalMinRecall": 0.9731999999999972,
+        "historicalMeanMs": 0.4783555,
+        "historicalP99Ms": 1.2644,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "HISTORICAL_TUNING_ONLY_SAME_DATA_AND_PARAMETERS",
+        "reason": "Every Tuning round meets target; lowest median of three E2E means; no interpolated budget and no Holdout selection",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 8.4370284,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9731999999999972,
+            "historicalMeanMs": 0.4783555,
+            "status": "SELECTED"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 0.9992999999999999,
+            "historicalMeanMs": 1.4277073999999998,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 4.444824404,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 14.403357286,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0914803,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.39940000000000025,
+            "historicalMeanMs": 0.23165370000000002,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.9846999999999986,
+            "historicalMeanMs": 0.6772946,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.9997999999999999,
+            "historicalMeanMs": 2.1371782,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0900237,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.23457129999999998,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.6919019000000001,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 2.1653509,
+            "status": "RECALL_BELOW_TARGET"
+          }
+        ],
+        "warnings": [
+          "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+          "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+        ]
+      },
+      "selectedStrategy": "N",
+      "selectedBudget": 10,
+      "resultVectorIds": [
+        68299,
+        59844,
+        87759,
+        12840,
+        158640,
+        198964,
+        72761,
+        16155,
+        225511,
+        174301
+      ],
+      "actualRecall": 1.0,
+      "actualTieAwareRecall": 1.0,
+      "actualTargetMet": true,
+      "executionFallback": false,
+      "queryLatencyNanos": 6665100,
+      "bitmapNanos": 109400,
+      "planningNanos": 2359000,
+      "searchNanos": 1884500,
+      "verificationNanos": 855800,
+      "attempts": [
+        {
+          "strategy": "N",
+          "budget": 10,
+          "returnedCount": 10,
+          "visitedCount": 1461,
+          "expandedCount": 72,
+          "searchNanos": 1884500,
+          "actualRecall": 1.0
+        }
+      ],
+      "warnings": [
+        "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+        "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "low-selectivity-R",
+    "response": {
+      "decision": {
+        "strategy": "E",
+        "budget": 0,
+        "filterId": "R-rank-1000",
+        "signature": "RANDOM_RANK:LT:1000",
+        "matches": 260,
+        "selectivity": 0.00104,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.95,
+        "safeFallback": false,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": true,
+        "historicalMinRecall": 1.0,
+        "historicalMeanMs": 0.687691197,
+        "historicalP99Ms": 0.794901,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "HISTORICAL_TUNING_ONLY_SAME_DATA_AND_PARAMETERS",
+        "reason": "Every Tuning round meets target; lowest median of three E2E means; no interpolated budget and no Holdout selection",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 0.687691197,
+            "status": "SELECTED"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9996999999999999,
+            "historicalMeanMs": 19.211379179999998,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 50.317071,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 127.8715583,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 187.4816525,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.0012,
+            "historicalMeanMs": 0.095628806,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.003500000000000002,
+            "historicalMeanMs": 0.23322881,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.012499999999999975,
+            "historicalMeanMs": 0.6902858989999999,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.05160000000000028,
+            "historicalMeanMs": 2.0789568149999997,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.0012,
+            "historicalMeanMs": 0.105503211,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.0008999999999999999,
+            "historicalMeanMs": 0.252325916,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.0008999999999999999,
+            "historicalMeanMs": 0.706526977,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.0008999999999999999,
+            "historicalMeanMs": 2.078837385,
+            "status": "RECALL_BELOW_TARGET"
+          }
+        ],
+        "warnings": [
+          "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+          "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        210952,
+        223858,
+        157273,
+        99423,
+        183423,
+        15634,
+        122339,
+        92139,
+        66695,
+        133504
+      ],
+      "actualRecall": 1.0,
+      "actualTieAwareRecall": 1.0,
+      "actualTargetMet": true,
+      "executionFallback": false,
+      "queryLatencyNanos": 11206100,
+      "bitmapNanos": 81300,
+      "planningNanos": 97600,
+      "searchNanos": 10791600,
+      "verificationNanos": 177500,
+      "attempts": [
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 10791600,
+          "actualRecall": 1.0
+        }
+      ],
+      "warnings": [
+        "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+        "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "cluster-correlated-C",
+    "response": {
+      "decision": {
+        "strategy": "E",
+        "budget": 0,
+        "filterId": "C-rank-100000",
+        "signature": "CLUSTER_RANK:LT:100000",
+        "matches": 25909,
+        "selectivity": 0.103636,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.95,
+        "safeFallback": false,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": true,
+        "historicalMinRecall": 1.0,
+        "historicalMeanMs": 5.9329292,
+        "historicalP99Ms": 7.4061,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "HISTORICAL_TUNING_ONLY_SAME_DATA_AND_PARAMETERS",
+        "reason": "Every Tuning round meets target; lowest median of three E2E means; no interpolated budget and no Holdout selection",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 5.9329292,
+            "status": "SELECTED"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9715999999999979,
+            "historicalMeanMs": 30.5601338,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 0.9969999999999998,
+            "historicalMeanMs": 35.0322061,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 44.7690884,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 52.5290834,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.10049999999999992,
+            "historicalMeanMs": 0.086252,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.20820000000000005,
+            "historicalMeanMs": 0.1925906,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.32050000000000006,
+            "historicalMeanMs": 0.5500446999999999,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.4308000000000001,
+            "historicalMeanMs": 1.6706591000000002,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.10049999999999992,
+            "historicalMeanMs": 0.0855535,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.10469999999999996,
+            "historicalMeanMs": 0.1931892,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.10529999999999995,
+            "historicalMeanMs": 0.5506576,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.10519999999999995,
+            "historicalMeanMs": 1.6617983,
+            "status": "RECALL_BELOW_TARGET"
+          }
+        ],
+        "warnings": [
+          "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+          "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        178185,
+        215732,
+        106523,
+        108580,
+        221766,
+        127634,
+        183742,
+        143610,
+        99805,
+        37904
+      ],
+      "actualRecall": 1.0,
+      "actualTieAwareRecall": 1.0,
+      "actualTargetMet": true,
+      "executionFallback": false,
+      "queryLatencyNanos": 19482100,
+      "bitmapNanos": 17200,
+      "planningNanos": 102500,
+      "searchNanos": 19188400,
+      "verificationNanos": 101500,
+      "attempts": [
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 19188400,
+          "actualRecall": 1.0
+        }
+      ],
+      "warnings": [
+        "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+        "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "unknown-region-fallback",
+    "response": {
+      "decision": {
+        "strategy": "E",
+        "budget": 0,
+        "filterId": null,
+        "signature": "REGION:EQ:1",
+        "matches": 31366,
+        "selectivity": 0.125464,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.95,
+        "safeFallback": true,
+        "supportedByHistoricalEvidence": false,
+        "exactEnumeration": true,
+        "historicalMinRecall": null,
+        "historicalMeanMs": null,
+        "historicalP99Ms": null,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "EXACT_ENUMERATION_WITHOUT_CALIBRATED_COST",
+        "reason": "Unknown filter signature, dataset identity, bitmap contents or selectivity; exact fallback",
+        "alternatives": [],
+        "warnings": [
+          "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA"
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        225116,
+        59844,
+        158759,
+        16429,
+        13612,
+        220944,
+        88584,
+        170340,
+        133003,
+        207296
+      ],
+      "actualRecall": null,
+      "actualTieAwareRecall": null,
+      "actualTargetMet": null,
+      "executionFallback": false,
+      "queryLatencyNanos": 11443200,
+      "bitmapNanos": 9400,
+      "planningNanos": 32600,
+      "searchNanos": 11333200,
+      "verificationNanos": 0,
+      "attempts": [
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 11333200,
+          "actualRecall": null
+        }
+      ],
+      "warnings": [
+        "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA",
+        "Actual Recall UNKNOWN: no query/filter/dataset-bound GT supplied; exact E is still exact enumeration"
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "cold-known-filter-fallback",
+    "response": {
+      "decision": {
+        "strategy": "E",
+        "budget": 0,
+        "filterId": "R-rank-100000",
+        "signature": "RANDOM_RANK:LT:100000",
+        "matches": 24805,
+        "selectivity": 0.09922,
+        "conditionCount": 1,
+        "cacheState": "COLD",
+        "targetRecall": 0.95,
+        "safeFallback": true,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": true,
+        "historicalMinRecall": null,
+        "historicalMeanMs": null,
+        "historicalP99Ms": null,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "EXACT_ENUMERATION_WITHOUT_CALIBRATED_COST",
+        "reason": "No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 8.4370284,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9731999999999972,
+            "historicalMeanMs": 0.4783555,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 0.9992999999999999,
+            "historicalMeanMs": 1.4277073999999998,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 4.444824404,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 14.403357286,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0914803,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.39940000000000025,
+            "historicalMeanMs": 0.23165370000000002,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.9846999999999986,
+            "historicalMeanMs": 0.6772946,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.9997999999999999,
+            "historicalMeanMs": 2.1371782,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0900237,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.23457129999999998,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.6919019000000001,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 2.1653509,
+            "status": "NOT_USED: No cold Tuning measurements: Holdout cold rows cannot choose a plan; exact fallback"
+          }
+        ],
+        "warnings": [
+          "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA"
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        68299,
+        59844,
+        87759,
+        12840,
+        158640,
+        198964,
+        72761,
+        16155,
+        225511,
+        174301
+      ],
+      "actualRecall": 1.0,
+      "actualTieAwareRecall": 1.0,
+      "actualTargetMet": true,
+      "executionFallback": false,
+      "queryLatencyNanos": 12376600,
+      "bitmapNanos": 2700600,
+      "planningNanos": 190000,
+      "searchNanos": 9297800,
+      "verificationNanos": 150300,
+      "attempts": [
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 9297800,
+          "actualRecall": 1.0
+        }
+      ],
+      "warnings": [
+        "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA"
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "low-recall-P-route",
+    "response": {
+      "decision": {
+        "strategy": "P",
+        "budget": 10,
+        "filterId": "R-rank-100000",
+        "signature": "RANDOM_RANK:LT:100000",
+        "matches": 24805,
+        "selectivity": 0.09922,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.05,
+        "safeFallback": false,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": false,
+        "historicalMinRecall": 0.0943999999999997,
+        "historicalMeanMs": 0.0900237,
+        "historicalP99Ms": 0.2186,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "HISTORICAL_TUNING_ONLY_SAME_DATA_AND_PARAMETERS",
+        "reason": "Every Tuning round meets target; lowest median of three E2E means; no interpolated budget and no Holdout selection",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 8.4370284,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9731999999999972,
+            "historicalMeanMs": 0.4783555,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 0.9992999999999999,
+            "historicalMeanMs": 1.4277073999999998,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 4.444824404,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 14.403357286,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0914803,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.39940000000000025,
+            "historicalMeanMs": 0.23165370000000002,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.9846999999999986,
+            "historicalMeanMs": 0.6772946,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.9997999999999999,
+            "historicalMeanMs": 2.1371782,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0900237,
+            "status": "SELECTED"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.23457129999999998,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.6919019000000001,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 2.1653509,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          }
+        ],
+        "warnings": [
+          "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+          "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        68299,
+        59844,
+        87759,
+        12840,
+        158640,
+        198964,
+        72761,
+        16155,
+        225511,
+        174301
+      ],
+      "actualRecall": 1.0,
+      "actualTieAwareRecall": 1.0,
+      "actualTargetMet": true,
+      "executionFallback": true,
+      "queryLatencyNanos": 9440600,
+      "bitmapNanos": 14800,
+      "planningNanos": 127400,
+      "searchNanos": 9213500,
+      "verificationNanos": 43800,
+      "attempts": [
+        {
+          "strategy": "P",
+          "budget": 10,
+          "returnedCount": 0,
+          "visitedCount": 436,
+          "expandedCount": 20,
+          "searchNanos": 366100,
+          "actualRecall": 0.0
+        },
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 8847400,
+          "actualRecall": 1.0
+        }
+      ],
+      "warnings": [
+        "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+        "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth.",
+        "Provided GT detected insufficient actual Strict Recall; executed exact E, with both attempts retained"
+      ]
+    }
+  },
+  {
+    "record": "demo-session.txt",
+    "scenario": "expanded-candidates-O-route",
+    "response": {
+      "decision": {
+        "strategy": "O",
+        "budget": 40,
+        "filterId": "R-rank-100000",
+        "signature": "RANDOM_RANK:LT:100000",
+        "matches": 24805,
+        "selectivity": 0.09922,
+        "conditionCount": 1,
+        "cacheState": "HOT",
+        "targetRecall": 0.2,
+        "safeFallback": false,
+        "supportedByHistoricalEvidence": true,
+        "exactEnumeration": false,
+        "historicalMinRecall": 0.39940000000000025,
+        "historicalMeanMs": 0.23165370000000002,
+        "historicalP99Ms": 0.5351,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-112e4af7-a02d-4d8e-8598-9bcf42f595a2",
+        "evidenceScope": "HISTORICAL_TUNING_ONLY_SAME_DATA_AND_PARAMETERS",
+        "reason": "Every Tuning round meets target; lowest median of three E2E means; no interpolated budget and no Holdout selection",
+        "alternatives": [
+          {
+            "strategy": "E",
+            "budget": 0,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 8.4370284,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 10,
+            "historicalMinRecall": 0.9731999999999972,
+            "historicalMeanMs": 0.4783555,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 40,
+            "historicalMinRecall": 0.9992999999999999,
+            "historicalMeanMs": 1.4277073999999998,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 160,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 4.444824404,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "N",
+            "budget": 640,
+            "historicalMinRecall": 1.0,
+            "historicalMeanMs": 14.403357286,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0914803,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "O",
+            "budget": 40,
+            "historicalMinRecall": 0.39940000000000025,
+            "historicalMeanMs": 0.23165370000000002,
+            "status": "SELECTED"
+          },
+          {
+            "strategy": "O",
+            "budget": 160,
+            "historicalMinRecall": 0.9846999999999986,
+            "historicalMeanMs": 0.6772946,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "O",
+            "budget": 640,
+            "historicalMinRecall": 0.9997999999999999,
+            "historicalMeanMs": 2.1371782,
+            "status": "HIGHER_COST_OR_TIE_BREAK"
+          },
+          {
+            "strategy": "P",
+            "budget": 10,
+            "historicalMinRecall": 0.0943999999999997,
+            "historicalMeanMs": 0.0900237,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 40,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.23457129999999998,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 160,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 0.6919019000000001,
+            "status": "RECALL_BELOW_TARGET"
+          },
+          {
+            "strategy": "P",
+            "budget": 640,
+            "historicalMinRecall": 0.09859999999999954,
+            "historicalMeanMs": 2.1653509,
+            "status": "RECALL_BELOW_TARGET"
+          }
+        ],
+        "warnings": [
+          "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+          "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+        ]
+      },
+      "selectedStrategy": "O",
+      "selectedBudget": 40,
+      "resultVectorIds": [
+        68299,
+        59844,
+        87759,
+        12840,
+        158640,
+        198964,
+        72761
+      ],
+      "actualRecall": 0.7,
+      "actualTieAwareRecall": 0.7,
+      "actualTargetMet": true,
+      "executionFallback": false,
+      "queryLatencyNanos": 1021900,
+      "bitmapNanos": 17200,
+      "planningNanos": 137100,
+      "searchNanos": 806400,
+      "verificationNanos": 36000,
+      "attempts": [
+        {
+          "strategy": "O",
+          "budget": 40,
+          "returnedCount": 7,
+          "visitedCount": 1034,
+          "expandedCount": 50,
+          "searchNanos": 806400,
+          "actualRecall": 0.7
+        }
+      ],
+      "warnings": [
+        "Historical single-graph evidence reused as a prior on a new graph; current-build latency prediction is UNKNOWN",
+        "Historical Recall is an average over 1000 Tuning queries, not a per-query guarantee. Actual Recall requires bound Ground Truth."
+      ]
+    }
+  },
+  {
+    "record": "json-request-session.txt",
+    "scenario": "json-request",
+    "response": {
+      "decision": {
+        "strategy": "E",
+        "budget": 0,
+        "filterId": null,
+        "signature": "REGION:EQ:1",
+        "matches": 142,
+        "selectivity": 0.138671875,
+        "conditionCount": 1,
+        "cacheState": "COLD",
+        "targetRecall": 0.95,
+        "safeFallback": true,
+        "supportedByHistoricalEvidence": false,
+        "exactEnumeration": true,
+        "historicalMinRecall": null,
+        "historicalMeanMs": null,
+        "historicalP99Ms": null,
+        "currentBuildPredictedMs": null,
+        "sourceBuildId": "engineering-20261119T002913-single-graph",
+        "currentBuildId": "product-demo-3211a10e-aca0-4f7d-ae62-246d10225d52",
+        "evidenceScope": "EXACT_ENUMERATION_WITHOUT_CALIBRATED_COST",
+        "reason": "Unknown filter signature, dataset identity, bitmap contents or selectivity; exact fallback",
+        "alternatives": [],
+        "warnings": [
+          "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA"
+        ]
+      },
+      "selectedStrategy": "E",
+      "selectedBudget": 0,
+      "resultVectorIds": [
+        334,
+        146,
+        616,
+        915,
+        263,
+        410,
+        785,
+        612,
+        984,
+        555
+      ],
+      "actualRecall": null,
+      "actualTieAwareRecall": null,
+      "actualTargetMet": null,
+      "executionFallback": false,
+      "queryLatencyNanos": 15290700,
+      "bitmapNanos": 7709100,
+      "planningNanos": 1704200,
+      "searchNanos": 4020000,
+      "verificationNanos": 0,
+      "attempts": [
+        {
+          "strategy": "E",
+          "budget": 0,
+          "returnedCount": 10,
+          "visitedCount": 0,
+          "expandedCount": 0,
+          "searchNanos": 4020000,
+          "actualRecall": null
+        }
+      ],
+      "warnings": [
+        "Current-build/cold latency prediction is UNKNOWN; exact enumeration preserves correctness, not a latency SLA",
+        "Actual Recall UNKNOWN: no query/filter/dataset-bound GT supplied; exact E is still exact enumeration"
+      ]
+    }
+  }
+]

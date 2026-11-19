@@ -1,0 +1,73 @@
+{
+  "sourceKind": "REAL_LOCAL_MEASUREMENTS",
+  "rows": 531,
+  "tuningPoints": 104,
+  "graphCount": 1,
+  "artifacts": [
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\exports\\complete-experiment-matrix.csv",
+      "sha256": "9e9b41e99d5162b18b7e54ce0912d877b8fb38f3ec50d707b30bac26083c6690"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\measured\\filters.json",
+      "sha256": "6f8c869649a617ac4be5fe5a9a730ca5748847bcf6d13ae126388553b8f110f4"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\measured\\build.json",
+      "sha256": "733ef6a02a88458568b0c85cfb42eeeb9cb63f945dc253accf7056bc8536509a"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\labels.bin",
+      "sha256": "631f157c8ded19241079962585990116904626a886e8b2ef4a01a2650b03fa37"
+    },
+    {
+      "path": "data\\processed\\metadata\\sift1m-random-v1.bin",
+      "sha256": "1591e21cd325201615f87d0092d266d04f95f3ff07f1c18642038f26eab2d44c"
+    },
+    {
+      "path": "data\\raw\\sift_base.fvecs",
+      "sha256": "21f66e2975057b5728ba56de1c825bac4f4d89d596609ae985741c6242631816"
+    },
+    {
+      "path": "data\\raw\\sift_query.fvecs",
+      "sha256": "f7fc9be140accdfd64116c2fa2365ecdb69b8f084970c6b0532db5ff79ac8fdc"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\R-rank-100000.prefix.bitmap",
+      "sha256": "16ef0ce59defe73c22dd796fef8c46cd6055cd99bd6cebf0ee40904fa7ec0fac"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\R-rank-1000.prefix.bitmap",
+      "sha256": "12233593bebcd03c719e6c4a841605ea84b0ecc3edd2bc5c3eab25ba9c76c22a"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\R-category0-rank-800000.prefix.bitmap",
+      "sha256": "72c014ba75bec75805c35b1db6589920829a117ec70cba18422c67c29a3dc421"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\R-category0-rank-16000.prefix.bitmap",
+      "sha256": "198952cc4ce5e20aff4a3e3788c2f1f92d31c032767a85af79a08a8e1eb0f4ed"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\C-rank-100000.prefix.bitmap",
+      "sha256": "a6e80ab717822cd2ac27fffe39541f4df81f374d01378cbca9133b2fd55cd2fc"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\C-rank-1000.prefix.bitmap",
+      "sha256": "4dbc6bb69cd5592755ef8637dee5db8a6cf9ad1fbe4ffdef960ec6720e9806d5"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\C-rank100000-random-500000.prefix.bitmap",
+      "sha256": "d0a9c87882b8367c4c3baf3e74d1b808dc6e35d7682b584ef69406210ceccf9b"
+    },
+    {
+      "path": "results\\w3-r-ef-final002\\postprocess-20261119T050558\\engineering-20261119T002913\\audit-output\\C-rank100000-random-10000.prefix.bitmap",
+      "sha256": "f1bb9627209efc924f852257cbb209c05c5069ff60cf119018162a59c2f8e438"
+    },
+    {
+      "path": "results\\w3-r-analysis\\tables\\per-round-recomputed.csv",
+      "sha256": "7ade3b79b97fdc6ca1c3e26f8231e468a1b1ac59822e2e30abee5d016df87a43"
+    }
+  ],
+  "catalogSha256": "d89f03cac9077a55b1dab75a1cff6d3a55165dd5ce8817cb06aec374429bbdf7"
+}
