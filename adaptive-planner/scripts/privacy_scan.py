@@ -9,7 +9,7 @@ RULES={
     'home_directory':re.compile(r'(?i)/(?:Users|home)/[^/\s]+'),
     'private_key':re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH |DSA |ENCRYPTED )?PRIVATE KEY-----'),
     'provider_token':re.compile(r'\b(?:ghp_|github_pat_|glpat-|xox[baprs]-|sk-proj-|sk-ant-)[A-Za-z0-9_-]{12,}'),
-    'legacy_openai_key':re.compile(r'\bsk-[A-Za-z0-9]{24,}\b'),
+    'provider_secret_key':re.compile(r'\bsk-[A-Za-z0-9]{24,}\b'),
     'aws_access_key':re.compile(r'\b(?:AKIA|ASIA)[A-Z0-9]{16}\b'),
     'google_api_key':re.compile(r'\bAIza[A-Za-z0-9_-]{30,}\b'),
     'bearer_literal':re.compile(r'(?i)\bBearer\s+[A-Za-z0-9_.~-]{24,}'),
