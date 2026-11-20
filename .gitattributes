@@ -2,3 +2,4 @@
 *.cmd text eol=crlf
 *.png binary
 *.bitmap binary
+adaptive-planner/performance-catalog/catalog-v0.1.json -text
